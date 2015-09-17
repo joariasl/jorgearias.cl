@@ -392,9 +392,5 @@ img::-moz-selection {
 }
 
 body {
-<<<<<<< HEAD:less/grayscale.less
-    webkit-tap-highlight-color: fade(@light, 20%);
-=======
     webkit-tap-highlight-color: rgba($light, 0.2);
->>>>>>> master:css/grayscale.scss
 }
