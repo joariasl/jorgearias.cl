@@ -67,6 +67,8 @@ social:
 #    url: "/feed.xml"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/joariasl"
+  - title: "facebook"
+    url: "https://www.facebook.com/ZettaOne"
   - title: "twitter"
     url: "https://twitter.com/ZettaOne"
   - title: "github"
