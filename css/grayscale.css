@@ -190,6 +190,7 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        text-shadow: 1px 0 1px #000;
     }
 }
 
