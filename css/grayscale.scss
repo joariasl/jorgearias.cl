@@ -60,7 +60,7 @@ a {
     &:hover,
     &:focus {
     text-decoration: none;
-        color: darken(#fec503,20%);
+        color: darken($primary, 20%);
     }
 }
 
@@ -113,7 +113,7 @@ a {
         li {
             &.active {
             outline: nonte;
-                        background-color: rgba($light, 0.3);
+			background-color: rgba($light, 0.3);
         }
             a {
                 -webkit-transition: background .3s ease-in-out;
@@ -209,9 +209,9 @@ a {
     transition: background .3s ease-in-out;
     &:hover,
     &:focus {
-            outline: none;
-            color: $light;
-            background: rgba($light, 0.1);
+		outline: none;
+		color: $light;
+		background: rgba($light, 0.1);
     }
     i.animated {
         -webkit-transition-property: -webkit-transform;
@@ -368,7 +368,7 @@ ul.social-buttons li a {
     &:focus,
     &:active {
         color: #222;
-        background-color: #fec503;
+        background-color: darken($primary, 10%);
     }
 }
 
