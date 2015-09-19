@@ -1,6 +1,7 @@
 # Site settings
 
 url: "http://www.jorgearias.cl"
+lang: en
 title: "{ Jorge Arias }"
 description: "Jorge Arias, estudiante de Ingeniería Civil en Informática y desarrollador informático."
 keywords: "jorge, arias, jorge arias, ingeniería"
