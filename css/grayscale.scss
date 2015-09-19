@@ -83,6 +83,13 @@ a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $dark;
+    
+    &.top-nav-collapse {
+		a {
+			text-shadow: none;
+		}
+    }
+    
     .navbar-brand {
         font-weight: 700;
             &:focus {
@@ -100,6 +107,7 @@ a {
     }
     a {
         color: $light;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
     }
     .nav {
         li {
