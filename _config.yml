@@ -1,7 +1,7 @@
 # Site settings
 
 url: "http://www.jorgearias.cl"
-lang: en
+lang: "es"
 title: "{ Jorge Arias }"
 description: "Jorge Arias, estudiante de Ingeniería Civil en Informática y desarrollador informático."
 keywords: "jorge, arias, jorge arias, ingeniería"
@@ -9,7 +9,6 @@ keywords: "jorge, arias, jorge arias, ingeniería"
 #black-favicon: "/img/black-lab-glass.ico"
 google-tracking-id: "UA-10005907-9"
 disqus-shortname: False
-cdn-resources: True
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
