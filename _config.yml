@@ -75,7 +75,7 @@ events:
   - image: "/img/career/uct.jpg"
     date: "Febrero 2014 - Junio 2014"
     description: "Desarrollador de Sistemas en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
-  - image: ""
+  - image: "/img/career/zp.png"
     date: "Febrero 2010 - Junio 2013"
     description: "Webmaster y creador de @ ZettaPremium"
   - image: "/img/career/uct.jpg"
