@@ -1,8 +1,6 @@
 ---
 ---
 
-/* YAML block in order to get processed by Jekyll */
-
 @import "variables";
 @import "mixins";
 
@@ -68,14 +66,14 @@ a {
     font-weight: 400;
 }
 
-.personal-list {
+.ul,
+ol {
   text-align: center;
   margin: 0 0 35px;
   font-size: 20px;
   line-height: 1.5;
   list-style-position: inside;
 }
-
 
 .navbar-custom {
     margin-bottom: 0;
@@ -304,28 +302,6 @@ a {
     }
 }
 
-.btn {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid $primary;
-    color: $primary;
-    background-color: transparent;
-    &:hover,
-    &:focus {
-        border: 1px solid $primary;
-        outline: none;
-        color: $dark;
-        background-color: $primary;
-    }
-}
-
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -363,7 +339,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    
+
     &:hover,
     &:focus,
     &:active {
@@ -401,4 +377,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba($light, 0.2);
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

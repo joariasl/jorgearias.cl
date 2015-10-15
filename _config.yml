@@ -1,67 +1,69 @@
+
 # Site settings
 
 url: "http://www.jorgearias.cl"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+#baseurl: /personal-jekyll-theme
+
+google-tracking-id: "UA-10005907-9"
+
+#############
+# HTML Head #
+#############
+
+author: "Jorge Arias"
 lang: "es"
 title: "{ Jorge Arias }"
+#favicon: "/img/favicon.ico"
 description: "Jorge Arias, estudiante de Ingeniería Civil en Informática y desarrollador informático."
 keywords: "jorge, arias, leal, osvaldo, jorge arias, jorge arias leal, ingeniería, informática, informático"
-#favicon: "/img/favicon.ico"
+
+################
+# Intro layout #
+################
+
 #black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id: "UA-10005907-9"
-disqus-shortname: False
-
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
-
-pages_list:
-  Acerca de: 'About'
-#  Blog: 'blog'
-  Carrera: 'Career'
-  Contacto: 'Contact'
-
-# Enable minification SASS
-sass:
-  style: compressed
-
-background-img: "/img/intro-bg.jpg"
-
-# About variables
-
+background-img: "../img/intro-bg.jpg"
 me-img: "/img/me.jpg"
 
-# Blog variables
-paginate: 15
+##############################
+# Dynamic Text on the header #
+##############################
 
-paginate_path: "blog/page:num"
+dynamic-typing: False
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
+
+########
+# Blog #
+########
 
 post-preview-words: 128
+
+paginate: 5
 
 fb-share: True
 twitter-share: True
 reddit-share: True
+disqus-shortname: False
 
-# Career variables
+###############
+# Life Events #
+###############
 
 events:
-#  - image: "/img/career/microsoft.jpg"
-#    date: "September 2014 - Today"
-#    description: "Software Engineer @ Microsoft Development Center Norway, working @ the <a href=\"http://dev.office.com/officegraph\" target=\"_blank\"> Office Graph</a>"
-#  - image: "/img/career/uoa.jpg"
-#    date: "October 2012 - August 2014"
-#    description: "Master studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">Department of Informatics and Telecommunications</a> on Software Engineering + <a href=\"http://scholar.google.com/citations?user=UtV6LFYAAAAJ&amp;hl=en&amp;oi=ao\" target=\"_blank\">Machine Learning researcher</a> @ <a href=\"http://kddlab.di.uoa.gr\" target=\"_blank\">KDD</a> lab"
-#  - image: "/img/career/cern.jpg"
-#    date: "October 2011 - September 2012"
-#    description: "Security researcher @ <a href=\"http://www.cern.ch\" target=\"_blank\">CERN</a>, developed linux kernel extensions to prevent cyber attacks"
-#  - image: "/img/career/writeright.jpg"
-#    date: "August 2011 - Today"
-#    description: "Released <a href=\"https://play.google.com/store/apps/details?id=panos.sakkos.softkeyboard.writeright\" target=\"_blank\">WriteRight</a>, an adaptive S/W keyboard for Android devices, which  shrinks the unlikely keys to tap next. Currently it holds &gt; 9,000 downloads"
-#  - image: "/img/career/pwnmail.jpg"
-#    date: "June 2010 - November 2010"
-#    description: "Released <a href=\"https://www.google.com/search?q=pwn+mail\" target=\"_blank\">Pwn Mail</a>, an iPhone app for spoofing emails. It served &gt; 260,000 emails but it was discontinued after a legal threat by <strike>Steve Jobs</strike> a secretary of Steve Jobs"
-#  - image: "/img/career/uoa.jpg"
-#    date: "October 2007 - September 2011"
-#    description: "Bachelor studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">Department of Informatics and Telecommunications</a> on Computer Science and Telecomunications"
   - image: "/img/career/uct.jpg"
     date: "Agosto 2015 - Actualidad"
     description: "Trabajo de Título en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
@@ -82,12 +84,19 @@ events:
     description: "Estudiante de Ingeniería Civil en Informática en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
 
 # First image of the Career timeline
-career-img: "/img/career/default.jpg"
+career-img: "/img/career/default.png"
 
-# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+##################
+# Contact layout #
+##################
+
+email: "mail@jorgearias.cl"
+
+##################
+# Social Buttons #
+##################
+
 social:
-#  - title: "rss"
-#    url: "/feed.xml"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/joariasl"
   - title: "facebook"
@@ -96,12 +105,33 @@ social:
     url: "https://twitter.com/ZettaOne"
   - title: "github"
     url: "https://github.com/joariasl"
-#  - title: "youtube"
-#    url: "http://youtube.com/c/PanosSakkos"
-#  - title: "soundcloud"
-#    url: "https://soundcloud.com/psakkos/"
+
+############
+# 404 page #
+############
 
 404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  Acerca de: 'About'
+#  Blog: 'blog'
+  Carrera: 'Career'
+  Contacto: 'Contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
 
 # Exclusion list from the generated _site
 #exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
