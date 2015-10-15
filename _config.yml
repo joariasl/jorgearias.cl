@@ -84,7 +84,7 @@ events:
     description: "Estudiante de Ingeniería Civil en Informática en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/me.jpg"
 
 ##################
 # Contact layout #
