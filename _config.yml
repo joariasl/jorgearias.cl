@@ -140,3 +140,5 @@ sass:
 # Exclusion list from the generated _site
 #exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "blog"]
+
+gems: [jekyll-paginate]
