@@ -94,7 +94,7 @@ a {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    color: rgba($light, 0.8);
+                    /* color: rgba($light, 0.8); */
                     outline: none;
                     background-color: rgba($light, 0.3);
                 }
