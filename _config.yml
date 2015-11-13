@@ -140,7 +140,7 @@ sass:
   style: compressed
 
 # Exclusion list from the generated _site
-#exclude: ["LICENSE", "README", "CONTRIBUTORS"]
-exclude: ["LICENSE", "README", "CONTRIBUTORS", "blog"]
+#exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts", "blog"]
 
 gems: [jekyll-paginate]
