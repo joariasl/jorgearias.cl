@@ -127,10 +127,10 @@ social:
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  Acerca de: 'About'
-#  Blog: 'blog'
-  Carrera: 'Career'
-  Contacto: 'Contact'
+  Acerca de: 'about'
+#  Blog: 'latest-post'
+  Carrera: 'career'
+  Contacto: 'contact'
 
 # Pagination path
 paginate_path: "blog/page:num"
