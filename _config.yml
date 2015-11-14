@@ -10,11 +10,23 @@ url: "http://www.jorgearias.cl"
 
 #baseurl: /personal-jekyll-theme
 
+# Google tracking id to track your visitors
+
 google-tracking-id: "UA-10005907-9"
 
 # Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
 
 force-https: False
+
+# Sections shown in the index page
+
+pages_list:
+  Acerca de: 'about'
+#  Blog: 'latest-post'
+  Carrera: 'timeline'
+  Contacto: 'contact'
 
 #############
 # HTML Head #
@@ -124,25 +136,18 @@ social:
 
 # Tread carefully if you want to change the variables below this point!
 
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
+# Exclusion list from the generated _site
 
-pages_list:
-  Acerca de: 'about'
-#  Blog: 'latest-post'
-  Carrera: 'career'
-  Contacto: 'contact'
+#exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts", "blog"]
 
 # Pagination path
+
 paginate_path: "blog/page:num"
 
 # Enable minification SASS
+
 sass:
   style: compressed
-
-# Exclusion list from the generated _site
-#exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts"]
-exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts", "blog"]
 
 gems: [jekyll-paginate]
