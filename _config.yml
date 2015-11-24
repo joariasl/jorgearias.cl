@@ -104,22 +104,22 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/career/uct.jpg"
+  - image: "/img/timeline/uct.jpg"
     date: "Agosto 2015 - Actualidad"
     description: "Trabajo de Título en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
-  - image: "/img/career/uct.jpg"
+  - image: "/img/timeline/uct.jpg"
     date: "Marzo 2015 - Abril 2015"
     description: "Gestor y desarrollador de Software en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
-  - image: "/img/career/sssi.jpg"
+  - image: "/img/timeline/sssi.jpg"
     date: "2014 - 2015"
     description: "Desarrollador de Sistemas en @ <a href=\"http://www.sanisidrosa.cl/\" target=\"_blank\">Aguas San Isidro</a>"
-  - image: "/img/career/uct.jpg"
+  - image: "/img/timeline/uct.jpg"
     date: "Febrero 2014 - Junio 2014"
     description: "Desarrollador de Sistemas en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
-  - image: "/img/career/zp.png"
+  - image: "/img/timeline/zp.png"
     date: "Febrero 2010 - Junio 2013"
     description: "Webmaster y creador de @ <a href=\"https://youtu.be/qitZpMZQfek\" target=\"_blank\">ZettaPremium</a>"
-  - image: "/img/career/uct.jpg"
+  - image: "/img/timeline/uct.jpg"
     date: "2008 - 2015"
     description: "Estudiante de Ingeniería Civil en Informática en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
 
