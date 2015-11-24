@@ -1,12 +1,16 @@
 
 # Site settings
 
+# NB! Set your site's url, otherwise stuff will break :)
+
 url: "http://www.jorgearias.cl"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
 
 #baseurl: /personal-jekyll-theme
 
@@ -20,47 +24,57 @@ google-tracking-id: "UA-10005907-9"
 
 force-https: False
 
-# Sections shown in the index page
-
-pages_list:
-  Acerca de: 'about'
-#  Blog: 'latest-post'
-  Carrera: 'timeline'
-  Contacto: 'contact'
-
 #############
 # HTML Head #
 #############
 
-author: "Jorge Arias"
 lang: "es"
+author: "Jorge Arias"
 title: "{ Jorge Arias }"
-#favicon: "/img/favicon.ico"
 description: "Jorge Arias, estudiante de Ingeniería Civil en Informática y desarrollador informático."
 keywords: "jorge, arias, leal, osvaldo, jorge arias, jorge arias leal, ingeniería, informática, informático"
+#favicon: "/img/favicon.ico"
+404-img: "/img/labtocat.png"
 
 ################
-# Intro layout #
+# Header layout #
 ################
 
 #black-favicon: "/img/black-lab-glass.ico"
+
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/me.jpg"
 
 ##############################
-# Dynamic Text on the header #
+# Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: False
-shuffle: True	# Shuffle the lines.
+shuffle: True # Shuffle the lines.
 loop: True
-loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
-lines:			# You can add HTML Tags in the Text
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
+
+me-img: "/img/me.jpg"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
 
 ########
 # Blog #
@@ -70,18 +84,24 @@ post-preview-words: 96
 
 paginate: 5
 
+email-share: True
 fb-share: True
 twitter-share: True
+linkedin-share: True
 reddit-share: True
 google-plus-share: True
-linkedin-share: True
+tumblr-share: True
 pinterest-share: True
+pocket-share: True
 vkontakte-share: True
+
 disqus-shortname: False
 
-###############
-# Life Events #
-###############
+syntax-highlight: True
+
+############
+# Timeline #
+############
 
 events:
   - image: "/img/career/uct.jpg"
@@ -103,12 +123,13 @@ events:
     date: "2008 - 2015"
     description: "Estudiante de Ingeniería Civil en Informática en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
 
-# First image of the Career timeline
-career-img: "/img/me.jpg"
+# First image of the Timeline
 
-##################
-# Contact layout #
-##################
+timeline-img: "/img/me.jpg"
+
+###########
+# Contact #
+###########
 
 email: "mail@jorgearias.cl"
 
@@ -136,12 +157,19 @@ social:
 
 ################################################################################
 
-# Tread carefully if you want to change the variables below this point!
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  Acerca de: 'about'
+#  Blog: 'latest-post'
+  Carrera: 'timeline'
+  Contacto: 'contact'
 
 # Exclusion list from the generated _site
 
-#exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts"]
-exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts", "blog"]
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "blog"]
 
 # Pagination path
 
@@ -152,4 +180,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jemoji
