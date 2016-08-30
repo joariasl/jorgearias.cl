@@ -110,6 +110,12 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/everis.png"
+    date: "Marzo 2016 - Actualidad"
+    description: "Consultor informático en @ <a href=\"http://www.everis.com/\" target=\"_blank\">everis Centers Chile</a>"
+  - image: "/img/timeline/everis.png"
+    date: "Enero 2016 - Marzo 2016"
+    description: "Práctica profesional en @ <a href=\"http://www.everis.com/\" target=\"_blank\">everis Centers Chile</a>"
   - image: "/img/timeline/uct.jpg"
     date: "Agosto 2015 - Actualidad"
     description: "Trabajo de Título en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
