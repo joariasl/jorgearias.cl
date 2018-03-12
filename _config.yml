@@ -131,8 +131,11 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/vacasa.png"
+    date: "Enero 2018 - Actualidad"
+    description: "Software Developer - Full Stack and DevOps en @ <a href=\"http://www.vacasa.com/\" target=\"_blank\">Vacasa</a>"
   - image: "/img/timeline/everis.png"
-    date: "Marzo 2016 - Actualidad"
+    date: "Marzo 2016 - Diciembre 2017"
     description: "Consultor informático en @ <a href=\"http://www.everis.com/\" target=\"_blank\">everis Centers Chile</a>"
   - image: "/img/timeline/everis.png"
     date: "Enero 2016 - Marzo 2016"
