@@ -14,7 +14,7 @@ url: "http://www.jorgearias.cl"
 
 #baseurl: /personal-jekyll-theme
 
-# Google tracking id to track your visitors
+# Google tracking id
 
 google-tracking-id: "UA-10005907-9"
 
@@ -34,7 +34,6 @@ title: "{ Jorge Arias }"
 description: "Jorge Arias, estudiante de Ingeniería Civil en Informática y desarrollador informático."
 keywords: "jorge, arias, leal, osvaldo, jorge arias, jorge arias leal, ingeniería, informática, informático"
 #favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
 
 ################
 # Header layout #
@@ -61,6 +60,26 @@ lines: # You can add HTML Tags in the Text
 
 me-img: "/img/me.jpg"
 
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
 ##############################
 # Color the browser elements #
 ##############################
@@ -85,6 +104,8 @@ icon-192p: "/img/web-app/icon-192p.png"
 ########
 # Blog #
 ########
+
+enable-gesture-navigation: True
 
 post-preview-words: 96
 
@@ -145,6 +166,17 @@ timeline-img: "/img/me.jpg"
 
 email: "mail@jorgearias.cl"
 
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
+
 ##################
 # Social Buttons #
 ##################
@@ -167,7 +199,15 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: johnsmith
+keybase-in-social: True
+keybase-in-footer: True
 
 ################################################################################
 
@@ -196,3 +236,4 @@ sass:
 
 gems:
   - jekyll-paginate
+  - jemoji
