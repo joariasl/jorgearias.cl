@@ -131,8 +131,11 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/nisum.png"
+    date: "Diciembre 2018 - Actualidad"
+    description: "DevOps y SRE para Scotiabank @ <a href=\"http://www.nisumlatam.com/\" target=\"_blank\">Nisum</a>"
   - image: "/img/timeline/vacasa.png"
-    date: "Enero 2018 - Actualidad"
+    date: "Enero 2018 - Diciembre 2018"
     description: "Software Developer - Full Stack and DevOps en @ <a href=\"http://www.vacasa.com/\" target=\"_blank\">Vacasa</a>"
   - image: "/img/timeline/everis.png"
     date: "Marzo 2016 - Diciembre 2017"
