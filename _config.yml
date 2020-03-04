@@ -132,7 +132,7 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/nisum.png"
-    date: "Diciembre 2018 - Actualidad"
+    date: "Diciembre 2018 - Febrero 2020"
     description: "DevOps y SRE para Scotiabank @ <a href=\"http://www.nisumlatam.com/\" target=\"_blank\">Nisum</a>"
   - image: "/img/timeline/vacasa.png"
     date: "Enero 2018 - Diciembre 2018"
