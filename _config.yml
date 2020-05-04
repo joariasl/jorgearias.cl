@@ -131,6 +131,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/zetta.png"
+    date: "Junuary 2015 - Actualidad"
+    description: "Fundador, DevOps y SRE @ <a href=\"https://www.zetta.biz/\" target=\"_blank\">Zetta</a>"
   - image: "/img/timeline/nisum.png"
     date: "Diciembre 2018 - Febrero 2020"
     description: "DevOps y SRE para Scotiabank @ <a href=\"http://www.nisumlatam.com/\" target=\"_blank\">Nisum</a>"
