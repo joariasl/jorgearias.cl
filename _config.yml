@@ -161,7 +161,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/me.jpg"
+timeline-img: "https://github.com/joariasl.png?size=500"
 
 ###########
 # Contact #
@@ -177,8 +177,8 @@ email: "mail@jorgearias.cl"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: 'Jorge Arias. Entrepreneur. Founder, DevOps and SRE at @<a href="https://www.zetta.biz/" target="_blank">Zetta</a>.'
+author_blurb_image: "https://github.com/joariasl.png?size=500"
 
 ##################
 # Social Buttons #
