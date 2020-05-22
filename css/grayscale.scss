@@ -165,6 +165,9 @@ a {
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
+    {% if site.background %}
+    background: {{ site.background }};
+    {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
