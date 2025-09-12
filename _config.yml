@@ -1,7 +1,7 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "http://www.jorgearias.cl"
+url: "https://www.jorgearias.cl"
 
 # Google tracking id
 google-tracking-id: "UA-10005907-9"
