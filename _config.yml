@@ -1,28 +1,10 @@
-
 # Site settings
 
-# NB! Set your site's url, otherwise stuff will break :)
-
+# NB! Set your site's url, otherwise nothing will work
 url: "http://www.jorgearias.cl"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
-#baseurl: /personal-jekyll-theme
-
 # Google tracking id
-
 google-tracking-id: "UA-10005907-9"
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: False
 
 #############
 # HTML Head #
@@ -36,38 +18,17 @@ keywords: "jorge, arias, leal, osvaldo, jorge arias, jorge arias leal, ingenier�
 #favicon: "/img/favicon.ico"
 
 ################
-# Header layout #
+# Header layout#
 ################
-
-#black-favicon: "/img/black-lab-glass.ico"
-
-background: "linear-gradient(135deg, #005005 0%, #60ad5e 100%)"
+# black-favicon: "/img/black-lab-glass.ico"
 background-img: ""
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-
-# me-img: "/img/me.jpg"
-
-# To use facebook profile pic comment the previous line and uncomment the following
-# line, and replace 'user_id' with your facebook user id.
-# Facebook user id can be found by clicking on your profile pic and the large number
-# in the end of the url just before '&type' is your user id.
-# Note: fbid is not the same as user id and user id only contains numbers
-
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+quote: "Eres libre de hacer todo lo que desees; siempre y cuando no interfiera, para mal, en la libertad de otro."
+me-img: "/img/jetpacktocat.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -81,51 +42,23 @@ me-img: "https://github.com/joariasl.png?size=500"
 
 # me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
 
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
+#######
 # Blog #
 ########
 
-enable-gesture-navigation: True
-
 post-preview-words: 96
-
 paginate: 5
-
 email-share: True
 fb-share: True
 twitter-share: True
 linkedin-share: True
 reddit-share: True
-google-plus-share: True
 tumblr-share: True
 pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
 disqus-shortname: "jorgearias"
-
-syntax-highlight: True
 
 ############
 # Timeline #
@@ -161,7 +94,6 @@ events:
     description: "Estudiante de Ingeniería Civil en Informática en @ <a href=\"http://www.uct.cl/\" target=\"_blank\">Universidad Católica de Temuco</a>"
 
 # First image of the Timeline
-
 timeline-img: "https://github.com/joariasl.png?size=500"
 
 ###########
@@ -178,69 +110,54 @@ email: "mail@jorgearias.cl"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: 'Jorge Arias. Entrepreneur. Founder, DevOps and SRE at @<a href="https://www.zetta.biz/" target="_blank">Zetta</a>.'
 author_blurb_image: "https://github.com/joariasl.png?size=500"
+author_blurb: 'Jorge Arias. Entrepreneur. Founder, DevOps and SRE at @<a href="https://www.zetta.biz/" target="_blank">Zetta</a>.'
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "linkedin"
+  - icon: "linked-in"
     url: "https://www.linkedin.com/in/joariasl"
-  - title: "facebook"
+  - icon: "facebook"
     url: "https://www.facebook.com/ZettaOne"
-  - title: "twitter"
-    url: "https://twitter.com/ZettaOne"
-  - title: "instagram"
+  - icon: "x-twitter"
+    url: "https://x.com/ZettaOne"
+  - icon: "rss"
+    url: "https://www.jorgarias.cl/feed.xml"
+  - icon: "instagram"
     url: "https://www.instagram.com/zettaone"
-  - title: "youtube"
+  - icon: "youtube"
     url: "https://www.youtube.com/user/JorgeAriasL"
-  - title: "github"
+  - icon: "github"
     url: "https://github.com/joariasl"
-  - title: "tv"
-    url: "https://www.livecoding.tv/zettaone/"
-
-############
-# 404 page #
-############
-
-err-404-img: "/img/labtocat.png"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: joariasl
-keybase-in-social: True
-keybase-in-footer: False
-
-################################################################################
+  - icon: "keybase"
+    url: "https://keybase.io/joariasl"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
 # Sections shown in the index page
-
 pages_list:
   Acerca de: 'about'
   Twitter Timeline: 'twitter-timeline'
   Blog: 'latest-post'
   Carrera: 'timeline'
   Contacto: 'contact'
-
 # Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
+exclude:
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - scripts
+  - Dockerfile
+  - docker-compose.yml
 # Pagination path
-
 paginate_path: "blog/page:num/"
-
 # Enable minification SASS
-
 sass:
   style: compressed
-
-gems:
+plugins:
   - jekyll-paginate
-  - jemoji
+  - jekyll-spaceship
