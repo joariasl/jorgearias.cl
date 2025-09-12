@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: CG-NAT sin habilitación IPv6 no es Internet completo
 date: 2025-09-11 22:00:00
-category: chile
+category: blog
 tags: [ 'blog', 'chile', 'networking', 'isp', 'internet', 'ipv6', 'ipv4' ]
 ---
 En Chile, hace unos 15 años se produjo uno de los conflictos más relevantes de la era de Internet a nivel mundial, entre usuarios y proveedores de servicios de Internet (ISP). A mediados de los años 2000, con la creciente masificación del intercambio de archivos mediante protocolos Peer-to-Peer (P2P), los usuarios comenzaron a utilizar intensivamente el ancho de banda por el que pagaban, el cual se ofrecía como "unlimited and unmetered bandwidth", las redes funcionaban con una alta tasa de agregación, lo que hacía imposible cumplir esa promesa bajo determinadas condiciones y provocaba que el servicio se degradara. Este uso no le agradó a las compañías proveedoras de Internet, dado que sobrecargaba su infraestructura, en una época donde contar 10Mb/s en el hogar era impresionante. La solución de las compañías fue comenzar a bloquear puertos a sus clientes y discriminar el tráfico que los usuarios realizaban, cosa sencilla en ese tiempo, donde casi nadie usaba cifrado para el transporte en la red.

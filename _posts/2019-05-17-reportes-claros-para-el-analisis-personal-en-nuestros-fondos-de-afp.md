@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: Reportes claros para el análisis personal en nuestros fondos de AFP
 date: 2019-05-17 21:15:00
-category: chile
+category: blog
 tags: [ 'blog', 'chile', 'afp' ]
 ---
 Comparto la siguiente carta al director enviada, con el fin de mantener la discusión en caso de que ésta no sea publicada.
