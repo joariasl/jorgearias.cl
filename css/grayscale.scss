@@ -179,7 +179,7 @@ a {
   width: 100%;
   height: auto;
   text-align: center;
-  padding-top: 20rem;
+  padding: 10rem 0;
   color: $font-color;
   background-color: $primary-color;
   -webkit-background-size: cover;
@@ -208,7 +208,7 @@ a {
     }
   }
   @media (min-width: 1200px) {
-    padding-top: 30rem;
+    padding: 15rem 0;
   }
 }
 
