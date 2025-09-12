@@ -2,6 +2,7 @@
 
 # NB! Set your site's url, otherwise nothing will work
 url: "https://www.jorgearias.cl"
+baseurl: ""
 
 # Google tracking id
 google-tracking-id: "UA-10005907-9"
