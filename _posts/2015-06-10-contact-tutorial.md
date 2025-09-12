@@ -1,24 +1,19 @@
 ---
 layout: post
 section-type: post
+has-comments: true
 title: Modifying the Contact
 category: tech
-tags: [ 'tutorial' ]
+tags: ["tutorial"]
 ---
 
-The contact part of the index page is consisted of two elements:
+The contact part of the index page contains your email and a text. You can
+modify the Contact text from the `contact.html` file and set the email in the
+site config:
 
-<ol>
-  <li>Text</li>
-  <li>Your email address</li>
-</ol>
-
-You can modify the Contact text from the /contact.html file and set the email in the site config:
-
-<pre><code data-trim class="yaml">
+```yaml
 email: "your@email.here"
-</code></pre>
+```
 
-Don't be afraid of email harvesting, write your email properly and the page will perform javascript obfuscation.
-
-<small>Many thanks to <a href="https://github.com/joariasl" target="\_blank">@joariasl</a> for this feature!</small>
+Don't be afraid of email harvesting, write your email properly and the page will
+perform javascript obfuscation.
