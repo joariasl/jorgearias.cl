@@ -28,12 +28,12 @@ background-img: ""
 ##############################
 
 quote: "Eres libre de hacer todo lo que desees; siempre y cuando no interfiera, para mal, en la libertad de otro."
-me-img: "/img/jetpacktocat.png"
+me-img: "https://github.com/joariasl.png?size=500"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-me-img: "https://github.com/joariasl.png?size=500"
+# me-img: "https://github.com/user_name.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
