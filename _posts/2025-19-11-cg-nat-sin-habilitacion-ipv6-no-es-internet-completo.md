@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: CG-NAT sin habilitación IPv6 no es Internet completo
+title: CG-NAT o doble NAT sin habilitación IPv6 no es Internet completo
 date: 2025-09-11 22:00:00
 category: blog
 tags: [ 'blog', 'chile', 'networking', 'isp', 'internet', 'ipv6', 'ipv4' ]
@@ -21,11 +21,11 @@ Tal situación contraviene tanto los estándares técnicos internacionales como 
 * [RFC 791 (IPv4)](https://www.rfc-editor.org/info/rfc791) y [RFC 8200 (IPv6)](https://www.rfc-editor.org/info/rfc8200) definen que una conexión de Internet debe permitir la comunicación extremo a extremo entre dispositivos.
 * El CG-NAT rompe este principio básico, afectando gravemente la neutralidad y calidad de la red. Dado que el servicio se encontraría dentro de una red privada externa a la contratada, bajo un NAT administrado externamente por la compañía, sin posibilidad alguna de aplicar configuraciones personalizadas sin romper con derechos a la privacidad, y sin transparencia de ello en la contratación.
 * La IETF, en el [RFC 6540](https://www.rfc-editor.org/info/rfc6540), establece explícitamente que “IPv6 es obligatorio en todos los nodos de Internet”, y que su soporte debe considerarse esencial para garantizar interoperabilidad y evolución de la red.
-* En Chile, la [Ley N° 20.453 de Neutralidad de la Red (artículo 24 H de la Ley General de Telecomunicaciones)](https://www.bcn.cl/leychile/navegar?i=1016570) garantiza que los usuarios pueden acceder libremente a cualquier contenido, aplicación o servicio disponible en Internet, sin discriminación arbitraria. Limitar el acceso a conexiones únicamente detrás de un CG-NAT y sin opción a IPv6 constituye una forma de restricción arbitraria al impedir participar activamente de Internet en igualdad de condiciones. Más aún considerando que IPv6 está establecido como requisito obligatorio para todos los nodos de Internet, debiendo ser considerado cada conexión doméstica como uno, y no solo el punto administrado y mantenido directamente por el ISP.
+* En Chile, la [Ley N° 20.453 de Neutralidad de la Red (artículo 24 H de la Ley General de Telecomunicaciones)](https://www.bcn.cl/leychile/navegar?i=1016570) garantiza que los usuarios pueden acceder libremente a cualquier contenido, aplicación o servicio disponible en Internet, sin discriminación arbitraria. Limitar el acceso a conexiones únicamente detrás de un CG-NAT, o doble NAT, y sin opción a IPv6 constituye una forma de restricción arbitraria al impedir participar activamente de Internet en igualdad de condiciones. Más aún considerando que IPv6 está establecido como requisito obligatorio para todos los nodos de Internet, debiendo ser considerado cada conexión doméstica como uno, y no solo el punto administrado y mantenido directamente por el ISP.
 
 La adopción de IPv6 a nivel mundial es de [44,68% (tráfico hacia Google)](https://www.google.com/intl/en/ipv6/statistics.html#tab=ipv6-adoption), mientras que Chile se encuentra muy por debajo de esa media con una adopción de [16,79%](https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption). Este rezago contrasta fuertemente con el hecho de que Chile se posiciona entre los primeros lugares del mundo en velocidad e infraestructura de Internet, pero con una brecha importante en la adopción de los estándares modernos requeridos.
 
-La ausencia de IPv6 y la imposición de CG-NAT significan que el servicio actualmente prestado no constituye Internet pleno, sino un acceso restringido y discriminatorio, lo que infringe tanto estándares internacionales como la legislación nacional.
+La ausencia de IPv6 y la imposición de CG-NAT o un NAT de configuración restingida significan que el servicio actualmente prestado no constituye Internet pleno, sino un acceso restringido y discriminatorio, lo que infringe tanto estándares internacionales como la legislación nacional.
 Dicho esto, el servicio ofrecido como “Internet” en realidad no cumple con los estándares internacionales de Internet ni con las obligaciones establecidas en la legislación chilena.
 
 Solicito a las entidades reguladoras que:
